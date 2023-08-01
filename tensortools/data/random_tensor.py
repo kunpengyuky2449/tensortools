@@ -27,7 +27,8 @@ def _check_random_state(random_state):
         If ``random_state`` is not appropriately set.
     """
     if random_state is None or isinstance(random_state, int):
-        return sci.random.RandomState(random_state)
+        #return sci.random.RandomState(random_state)
+        return np.random.RandomState(random_state)
     elif isinstance(random_state, sci.random.RandomState):
         return random_state
     else:
