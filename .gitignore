@@ -79,7 +79,9 @@ target/
 .DS_Store
 
 # pytest
-.pytest_cache
-SAAAT_preprocess_matlab/test_data_step12/PARAMS.mat
-SAAAT_preprocess_matlab/SAAAT_tensor_NTK_230801_13_34_06.mat
-SAAAT_preprocess_matlab/SAAAT_tensor_NTK_230801_13_34_06.mat
+*.pytest_cache
+*.mat
+*.jpg
+*.fig
+*.asv
+*.mat
